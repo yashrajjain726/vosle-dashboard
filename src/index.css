@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.dashboard{
+  background-image: url("https://morkshub.xyz/dashboard/assets/images/auth/login_updated.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  
+}
+.main{
+  text-align: center;
+  max-width: 100% !important;
+  padding-left:0px !important;
+  padding-right: 0px !important;
+  padding-top: 30px;
+}
+.login-card{
+    padding:26px;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 400px !important;
+    
+  }
+
+.login{
+  text-align: center;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    font-family: roboto;
+    font-size: 30px;
+    color: #2f5a77;
+    font-weight: 500;
+}
+.logo{
+  display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width:160px;
+}
+.forgot-password{
+  font-family: roboto;
+    font-size: 16px;
+    color: #2f5a77 !important;
+    text-decoration:none;
+}
+.copyright-section{
+  font-family: roboto;
+  font-size: 18px;
+  color: #c2c2c2 !important;
+}
