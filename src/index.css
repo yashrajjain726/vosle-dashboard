@@ -15,6 +15,7 @@ code {
   background-image: url("https://morkshub.xyz/dashboard/assets/images/auth/login_updated.png");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 
   
 }
@@ -24,6 +25,12 @@ code {
   padding-left:0px !important;
   padding-right: 0px !important;
   padding-top: 30px;
+  display:flex !important;
+  align-items: center !important;
+  justify-content:center !important;
+  height: 100vh;
+  width: 100vh;
+  flex-direction: column;
 }
 .login-card{
     padding:26px;
@@ -59,4 +66,20 @@ code {
   font-family: roboto;
   font-size: 18px;
   color: #c2c2c2 !important;
+}
+.forgot-card{
+  padding:26px;
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 750px !important;
+  
+}
+.signup-card{
+  padding:20px;
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 750px !important;
+  
 }

@@ -33,7 +33,7 @@ class DashBoard extends Component {
                 align: "left",
                 width: "100%",
                 border: "none",
-                borderBottom: "1px solid #9a9a9a",
+
                 fontFamily: "roboto",
                 fontSize: "16px",
                 color: "#c2c2c2 !important",
@@ -47,7 +47,6 @@ class DashBoard extends Component {
                 align: "left",
                 width: "100%",
                 border: "none",
-                borderBottom: "1px solid #9a9a9a",
                 fontFamily: "roboto",
                 fontSize: "16px",
                 color: "#c2c2c2 !important",
@@ -69,23 +68,25 @@ class DashBoard extends Component {
               Login
             </Button>
             <div style={{marginTop:'12px',textAlign:'center !important'}}>
-              <a href="/" className="forgot-password">
+              <a href="/forgotpassword" className="forgot-password">
                 Forgot Password ?
               </a>
             </div>
             <div style={{marginTop:'60px',marginLeft:'auto',marginRight:'auto'}}>
               <span style={{fontSize:'18px',color:'#2f5a77'}}>Not a member ? </span>
-              <a href="/" style={{fontSize:'18px',color:'#2f5a77',textDecoration:'none'}}>Create New account </a>
+              <a href="/signup" style={{fontSize:'18px',color:'#2f5a77',textDecoration:'none'}}>Create New account </a>
 
             </div>
           </Card>
-          <ul style={{marginTop:'40px',listStyleType:'none',padding:'0px'}}>
+         <div>
+            <ul style={{marginTop:'40px',listStyleType:'none',padding:'0px'}}>
             <li>
               <a href="/" style={{fontSize:'18px',color:'#c2c2c2',fontFamily:'roboto',textDecoration:'none'}}>Terms & Conditions</a>
               <a href="/" style={{fontSize:'18px',color:'#c2c2c2',fontFamily:'roboto',textDecoration:'none',marginLeft:'2%'}}>Privacy Policy</a>
             </li>
           </ul>
           <p className="copyright-section">Copyright © 2020 Vossle®. All rights reserved.</p>
+         </div>
         </Container>
       </div>
     );
