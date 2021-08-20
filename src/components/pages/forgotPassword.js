@@ -1,14 +1,15 @@
 import React, { Component } from "react";
+import logo from '../../assets/logo.png'
 import { Container, Card, TextField, Button } from "@material-ui/core";
 class ForgotPassword extends Component {
   state = {};
   render() {
     return (
-      <div className="dashboard">
-        <Container className="main">
+      <div className="dashboard" >
+        <Container className="main"style={{width:'50%'}}>
           <Card className="forgot-card" style={{ backgroundColor: "#fff" }}>
             <img
-              src={"https://morkshub.xyz/dashboard/assets/images/logo.png"}
+              src={logo}
               style={{ width: "70px" }}
             ></img>
             <h4

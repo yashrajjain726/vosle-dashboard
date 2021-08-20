@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Container ,Card ,Button} from '@material-ui/core';
+import logo from '../../assets/logo.png'
+import { Container ,Button} from '@material-ui/core';
 class SignUp extends Component {;
     state = {  }
     render() { 
@@ -8,7 +9,7 @@ class SignUp extends Component {;
         <Container>
           <Container className="signup-card">
             <img
-              src={"https://morkshub.xyz/dashboard/assets/images/logo.png"}
+              src={logo}
               className="logo"
             ></img>
             <h4

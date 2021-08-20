@@ -1,16 +1,17 @@
 import React, { Component } from "react";
+import logo from '../../assets/logo.png'
 import { TextField, Container, Card, Button } from "@material-ui/core";
 class DashBoard extends Component {
   state = {};
   render() {
     return (
       <div
-        className="dashboard"
+        className="dashboard "
       >
         <Container className="main">
           <Card className="login-card" style={{borderRadius:'10px'}}>
             <img
-              src={"https://morkshub.xyz/dashboard/assets/images/logo.png"}
+              src={logo}
               className="logo"
             ></img>
             <p className="login">
@@ -52,6 +53,7 @@ class DashBoard extends Component {
                 color: "#c2c2c2 !important",
               }}
             />
+            <a href="/dashboard" style={{textDecoration:'none'}}>
             <Button
               variant="contained"
               style={{
@@ -67,8 +69,9 @@ class DashBoard extends Component {
             >
               Login
             </Button>
+            </a>
             <div style={{marginTop:'12px',textAlign:'center !important'}}>
-              <a href="/forgotpassword" className="forgot-password">
+              <a href="/forgot-password" className="forgot-password">
                 Forgot Password ?
               </a>
             </div>
